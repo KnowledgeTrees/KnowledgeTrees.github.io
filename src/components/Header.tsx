@@ -37,19 +37,29 @@ export const Header = ({ isDark, onThemeToggle }: HeaderProps) => {
           </div>
         </div>
 
-        {/* Theme Toggle */}
-        <Button
-          variant="ghost"
-          size="sm"
-          onClick={onThemeToggle}
-          className="rounded-full"
-        >
-          {isDark ? (
-            <SunIcon className="h-5 w-5" />
-          ) : (
-            <MoonIcon className="h-5 w-5" />
-          )}
-        </Button>
+        {/* Navigation Buttons */}
+        <div className="flex items-center gap-3">
+          <Button variant="ghost" size="sm">
+            Forum
+          </Button>
+          <Button variant="ghost" size="sm">
+            Our Mission
+          </Button>
+          
+          {/* Theme Toggle */}
+          <Button
+            variant="ghost"
+            size="sm"
+            onClick={onThemeToggle}
+            className="rounded-full"
+          >
+            {isDark ? (
+              <SunIcon className="h-5 w-5" />
+            ) : (
+              <MoonIcon className="h-5 w-5" />
+            )}
+          </Button>
+        </div>
       </div>
     </header>
   );
