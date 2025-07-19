@@ -7,34 +7,51 @@ All colors MUST be HSL.
 */
 
 @layer base {
-  :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+:root {
+    /* Knowledge Platform Theme - Deep Learning Colors */
+    --background: 210 20% 98%;
+    --foreground: 222 20% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 222 20% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 222 20% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Primary: Deep knowledge blue */
+    --primary: 220 70% 50%;
+    --primary-foreground: 0 0% 100%;
+    --primary-hover: 220 70% 45%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Secondary: Subtle academic gray */
+    --secondary: 220 15% 95%;
+    --secondary-foreground: 222 20% 25%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Muted: Reading-friendly gray */
+    --muted: 220 10% 96%;
+    --muted-foreground: 220 8% 46%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Accent: Intellectual purple */
+    --accent: 260 60% 65%;
+    --accent-foreground: 0 0% 100%;
+    --accent-hover: 260 60% 60%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 75% 60%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    /* Knowledge tree specific colors */
+    --tree-node: 220 15% 97%;
+    --tree-node-hover: 220 20% 94%;
+    --tree-node-active: 220 70% 50%;
+    --tree-connection: 220 15% 85%;
+    
+    /* Search and highlight */
+    --search-highlight: 45 100% 75%;
+    --search-background: 45 100% 95%;
+
+    --border: 220 15% 90%;
+    --input: 220 15% 96%;
+    --ring: 220 70% 50%;
 
     --radius: 0.5rem;
 
@@ -56,33 +73,50 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
+    /* Dark Knowledge Theme - Deep exploration mode */
+    --background: 222 25% 8%;
+    --foreground: 220 15% 92%;
 
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
+    --card: 222 20% 12%;
+    --card-foreground: 220 15% 92%;
 
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
+    --popover: 222 20% 12%;
+    --popover-foreground: 220 15% 92%;
 
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
+    /* Primary: Bright knowledge blue for dark mode */
+    --primary: 220 85% 65%;
+    --primary-foreground: 222 25% 8%;
+    --primary-hover: 220 85% 70%;
 
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
+    /* Secondary: Dark academic surface */
+    --secondary: 222 20% 15%;
+    --secondary-foreground: 220 15% 85%;
 
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
+    /* Muted: Dark reading surface */
+    --muted: 222 15% 18%;
+    --muted-foreground: 220 10% 65%;
 
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
+    /* Accent: Vibrant discovery purple */
+    --accent: 260 70% 70%;
+    --accent-foreground: 222 25% 8%;
+    --accent-hover: 260 70% 75%;
 
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 75% 65%;
+    --destructive-foreground: 222 25% 8%;
 
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
+    /* Dark mode tree colors */
+    --tree-node: 222 20% 15%;
+    --tree-node-hover: 222 25% 20%;
+    --tree-node-active: 220 85% 65%;
+    --tree-connection: 222 15% 25%;
+    
+    /* Dark search highlighting */
+    --search-highlight: 45 90% 70%;
+    --search-background: 45 30% 20%;
+
+    --border: 222 15% 25%;
+    --input: 222 20% 15%;
+    --ring: 220 85% 65%;
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;

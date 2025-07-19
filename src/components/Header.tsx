@@ -1,0 +1,56 @@
+import { Button } from '@/components/ui/button';
+import { MoonIcon, SunIcon, TreePine } from 'lucide-react';
+
+interface HeaderProps {
+  isDark: boolean;
+  onThemeToggle: () => void;
+}
+
+export const Header = ({ isDark, onThemeToggle }: HeaderProps) => {
+  return (
+    <header className="border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+      <div className="container mx-auto px-4 h-16 flex items-center justify-between">
+        {/* Logo and Title */}
+        <div className="flex items-center gap-3">
+          <div className="p-2 rounded-lg bg-primary/10">
+            <TreePine className="h-6 w-6 text-primary" />
+          </div>
+          <div>
+            <h1 className="text-xl font-bold text-foreground">Knowledge Tree</h1>
+            <p className="text-xs text-muted-foreground">AI-Curated Knowledge Platform</p>
+          </div>
+        </div>
+
+        {/* Stats */}
+        <div className="hidden md:flex items-center gap-6 text-sm text-muted-foreground">
+          <div className="text-center">
+            <div className="font-medium text-foreground">5</div>
+            <div className="text-xs">General Topics</div>
+          </div>
+          <div className="text-center">
+            <div className="font-medium text-foreground">12</div>
+            <div className="text-xs">Main Topics</div>
+          </div>
+          <div className="text-center">
+            <div className="font-medium text-foreground">32</div>
+            <div className="text-xs">Subgenres</div>
+          </div>
+        </div>
+
+        {/* Theme Toggle */}
+        <Button
+          variant="ghost"
+          size="sm"
+          onClick={onThemeToggle}
+          className="rounded-full"
+        >
+          {isDark ? (
+            <SunIcon className="h-5 w-5" />
+          ) : (
+            <MoonIcon className="h-5 w-5" />
+          )}
+        </Button>
+      </div>
+    </header>
+  );
+};

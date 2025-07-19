@@ -26,7 +26,8 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					hover: 'hsl(var(--primary-hover))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
@@ -42,7 +43,20 @@ export default {
 				},
 				accent: {
 					DEFAULT: 'hsl(var(--accent))',
-					foreground: 'hsl(var(--accent-foreground))'
+					foreground: 'hsl(var(--accent-foreground))',
+					hover: 'hsl(var(--accent-hover))'
+				},
+				// Knowledge tree specific colors
+				tree: {
+					node: 'hsl(var(--tree-node))',
+					'node-hover': 'hsl(var(--tree-node-hover))',
+					'node-active': 'hsl(var(--tree-node-active))',
+					connection: 'hsl(var(--tree-connection))'
+				},
+				// Search highlighting
+				search: {
+					highlight: 'hsl(var(--search-highlight))',
+					background: 'hsl(var(--search-background))'
 				},
 				popover: {
 					DEFAULT: 'hsl(var(--popover))',
