@@ -6,7 +6,7 @@ Imagine a massive, expanding library of information - but instead of messy threa
 
 No ads. No random edits. No clutter. Just clean, hand-picked knowledge, powered by a mix of AI and human insight.
 
-I’m starting with 30 core branches - the "General Topics" — each with its own ecosystem of topics and subgenres. Over time, this will grow into a full exploration of everything we know (and a lot of what we don’t).
+I’m starting with 30 core branches - the "General Topics" each with its own ecosystem of topics and subgenres. Over time, this will grow into a full exploration of everything we know (and a lot of what we don’t).
 
 The site is read-only - not because I don’t want input, but because I want quality. Curation is the point. Eventually, you’ll be able to explore it visually, zooming through layers of content like you’re navigating the neural network of human thought.
 
