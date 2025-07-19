@@ -1,73 +1,17 @@
-# Welcome to your Lovable project
+Hey there, 
 
-## Project info
+I’m building something different. It’s called the **Knowledge Tree**.
 
-**URL**: https://lovable.dev/projects/0ce9e179-89dd-4235-a449-130d10ecbbb5
+Imagine a massive, expanding library of information - but instead of messy threads and shallow summaries, it’s structured like a living tree. You start with a general topic (like Science, Spirituality, Warfare), then branch out into thousands of specific, curated ideas. Every page is clear, intentional, and built to take you deeper.
 
-## How can I edit this code?
+No ads. No random edits. No clutter. Just clean, hand-picked knowledge, powered by a mix of AI and human insight.
 
-There are several ways of editing your application.
+I’m starting with 30 core branches - the "General Topics" — each with its own ecosystem of topics and subgenres. Over time, this will grow into a full exploration of everything we know (and a lot of what we don’t).
 
-**Use Lovable**
+The site is read-only - not because I don’t want input, but because I want quality. Curation is the point. Eventually, you’ll be able to explore it visually, zooming through layers of content like you’re navigating the neural network of human thought.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/0ce9e179-89dd-4235-a449-130d10ecbbb5) and start prompting.
+This isn’t for everyone. It’s for the obsessive learners, the ones who go down rabbit holes on purpose. The ones who want to know more than what pops up on page one of search results. The ones who want meaning, structure, and a real journey through ideas.
 
-Changes made via Lovable will be committed automatically to this repo.
+Right now I’m building the foundation. The tree will go live soon. If this resonates with you — if you’re someone who gets excited by structured knowledge, or you’re curious where this could go - I’d love to hear from you.
 
-**Use your preferred IDE**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/0ce9e179-89dd-4235-a449-130d10ecbbb5) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
