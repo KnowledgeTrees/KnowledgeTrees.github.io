@@ -20,6 +20,10 @@ export const Header = ({ isDark, onThemeToggle }: HeaderProps) => {
             <h1 className="text-xl font-bold text-foreground">Knowledge Tree</h1>
             <p className="text-xs text-muted-foreground">AI-Curated Knowledge Platform</p>
           </div>
+          {/* ChatGPT Model Search Logo Spot */}
+          <div className="ml-4 px-3 py-1 rounded-full bg-gradient-to-r from-primary/20 to-accent/20 border border-primary/30">
+            <span className="text-xs font-medium text-primary">ChatGPT Search</span>
+          </div>
         </div>
 
         {/* Stats */}
