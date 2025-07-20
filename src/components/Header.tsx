@@ -1,5 +1,6 @@
 import { Button } from '@/components/ui/button';
-import { MoonIcon, SunIcon, TreePine } from 'lucide-react';
+import { MoonIcon, SunIcon, TreePine, HelpCircle } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 interface HeaderProps {
   isDark: boolean;
@@ -39,12 +40,20 @@ export const Header = ({ isDark, onThemeToggle }: HeaderProps) => {
 
         {/* Navigation Buttons */}
         <div className="flex items-center gap-3">
+          <Link to="/help">
+            <Button variant="ghost" size="sm" className="flex items-center gap-2">
+              <HelpCircle className="h-4 w-4" />
+              Help
+            </Button>
+          </Link>
           <Button variant="ghost" size="sm">
             Forum
           </Button>
-          <Button variant="ghost" size="sm">
-            Our Mission
-          </Button>
+          <Link to="/our-mission">
+            <Button variant="ghost" size="sm">
+              Our Mission
+            </Button>
+          </Link>
           
           {/* Theme Toggle */}
           <Button
